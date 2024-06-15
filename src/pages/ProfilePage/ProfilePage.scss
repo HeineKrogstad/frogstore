@@ -1,0 +1,104 @@
+@import '../../styles/variablesFonts.scss';
+@import '../../styles/variables.scss';
+
+.profile-head {
+    padding: 80px;
+}
+
+.profile-heading {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.profile-title {
+    @include heading2;
+    margin: 0 0 0 0;
+    color: $black;
+}
+
+.logout-button {
+    color: $red;
+    background-color: transparent;
+    @include button;
+    height: 50%;
+    border: 1px solid $red;
+    padding: 10px 10px 10px 10px;
+    cursor: pointer;
+}
+
+.orders-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.order-items {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.order-product {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+}
+
+.order-item {
+    border-top: 1px solid $black;
+    cursor: pointer;
+    background-color: $extra-light;
+ 
+}
+
+.order-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 1px solid $black;
+    padding: 80px;
+}
+
+.order-details p {
+    margin: 0 0 0 0;
+}
+
+.profile-email {
+    @include heading5;
+}
+
+.order-details {
+    @include subtitle;
+}
+
+.order-head {
+    @include heading4;
+    padding: 32px 80px;
+    margin: 0 0 0 0;
+}
+
+.order-sum {    
+    margin-top: 16px;
+    padding-top: 16px;
+    border-top: 1px solid $black;
+    @include heading5;
+}
+
+.order-product-img {
+    object-fit: cover;
+    width: 160px;
+    height: 160px;
+    border: 1px solid $black;
+}
+
+.order-product-info {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.order-delivery-info p {
+    padding-top: 12px;
+}

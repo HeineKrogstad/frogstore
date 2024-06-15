@@ -1,0 +1,37 @@
+@import '../../styles/variablesFonts.scss';
+@import '../../styles/variables.scss';
+
+.card-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.card-content {
+    max-width: 25vw;
+    height: 25vw;
+    color: $black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid $black;
+    border-bottom: 1px solid $black;
+}
+
+.card-image {
+    width: 100%;
+    height: 25vw;
+    object-fit: cover;
+    border-left: 1px solid $black;
+    border-bottom: 1px solid $black;
+}
+
+.category-name {
+    @include heading3;
+    color: $black;
+}
+
+.buy-link{
+    @include link;
+    color: $black;
+}

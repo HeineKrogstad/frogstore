@@ -1,0 +1,34 @@
+@import '../../styles/variablesFonts.scss';
+
+.category-header {
+    @include heading1;
+    color: $white;
+}
+
+.category-page-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.category-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    min-width: 720px;
+    min-height: 720px;
+}
+
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.product-object {
+    border-left: 1px solid $black;
+    border-bottom: 1px solid $black;
+    width: 100%;
+    height: 100%;
+}
+

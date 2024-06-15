@@ -1,0 +1,69 @@
+@import '../../styles/variablesFonts.scss';
+@import '../../styles/variables.scss';
+
+.repair-section {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    color: $black;
+    border-bottom: 1px solid $black;
+}
+
+.repair-title {
+    @include heading2;
+}
+
+.repair-body {
+    @include heading6;
+    margin-top: 24px;
+}
+
+.repair-header {
+    padding: 80px 80px 80px 80px;
+}
+
+.repair-photo {
+    background-image: url("../../../public/images/repair.jpeg");
+    width: 100%; 
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    border-right: 1px solid $black;
+}
+
+.repair-button {
+    @include button;
+    padding: 24px 24px 24px 24px;
+    background-color: $white;
+    border: 1px solid $black;
+    margin-top: 80px;
+}
+
+.repair-block-heading {
+    @include heading3;
+}
+
+.repair-block-heading span {
+    @include heading4;
+}
+
+.heading-repair {
+    @include heading2;
+    padding: 80px 80px 80px 80px;
+    position: sticky;
+    top: 0;
+    max-height: 220px; 
+}
+
+.repair-prices {
+    border-left: 1px solid $black;
+}
+
+.repair-block {
+    border-bottom: 1px solid $black;
+    padding: 80px 80px 80px 80px;
+}
+
+.repair-block img {
+    margin-top: 24px;
+}

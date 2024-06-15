@@ -1,0 +1,30 @@
+@import '../../styles/variablesFonts.scss';
+@import '../../styles/variables.scss';
+
+.favorites-header {
+    @include heading1;
+    margin: 0 0 0 0;
+    padding: 80px 80px 80px 80px;
+    text-align: center;
+    border-bottom: 1px solid $black;
+}
+
+.favorites-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.favorites-empty {
+    width: 100vw;
+    padding: 40px 40px 40px 40px;
+    text-align: center;
+    @include heading3;
+}
+
+.favorites-list {
+    border-right: 1px solid $black;
+}
+
+.product-card {
+    border-right: 1px solid $black;
+}

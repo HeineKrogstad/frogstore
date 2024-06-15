@@ -1,0 +1,35 @@
+@import '../../styles/variablesFonts.scss';
+@import '../../styles/variables.scss';
+
+.product-card {
+    min-width: 312px;
+    min-height: 312px;
+    aspect-ratio: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    color: $black;
+    gap: 5px;
+    padding: 24px 24px 24px 24px;
+}
+
+.product-name {
+    @include heading6; 
+}
+
+.product-price {
+    @include caption;
+}
+
+.product-info {
+    width: 100%;
+    text-align: center;
+}
+
+.img-box {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}

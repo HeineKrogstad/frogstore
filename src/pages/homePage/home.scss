@@ -1,0 +1,141 @@
+@import '../../styles/variablesFonts.scss';
+@import '../../styles/variables.scss';
+
+.home {
+    width: 100%;
+}
+
+.main-section {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-flow: column;
+    border-bottom: 1px solid $black;
+}
+
+.welcome {
+    height: 50vw;
+    display: flex;
+    align-items: center;
+    padding: 80px;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0;
+}
+
+.heading {
+    @include heading1;
+    color: $black;
+}
+
+.subheading {
+    @include heading5;
+    color: $black;
+}
+
+.heading-benefit {
+    @include heading2;
+    max-height: 220px; 
+    padding: 80px;
+    position: sticky;
+    top: 0;
+}
+
+.benefit-section {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-flow: column;
+    color: $black;
+    border-bottom: 1px solid $black;
+}
+
+.benefit-block-heading {
+    @include heading3;
+}
+
+.benefit-block-body {
+    @include body;
+    margin-top: 16px;
+}
+
+.benefit-block {
+    border-bottom: 1px solid $black;
+    border-left: 1px solid $black;
+    padding: 80px;
+}
+
+.contacts-section {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    border-bottom: 1px solid $black;
+}
+
+.contacts {
+    border-right: 1px solid $black;
+}
+
+.contacts-header {
+    @include heading2;
+    padding: 60px 80px 60px 80px;
+    border-bottom: 1px solid $black;
+}
+
+.follow-us {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+}
+
+.follow-us-header {
+    @include heading3;
+    padding: 16px 30px 16px 30px;
+    border-right: 1px solid $black;
+}
+
+.where-we-section {
+    @include heading2;
+    text-align: center;
+    border-bottom: 1px solid $black;
+    padding: 50px 0 50px 0;
+}
+
+.contacts-body {
+    @include subtitle;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 80px 50px 80px;
+    gap: 20px;
+}
+
+.contacts-body span {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.our-shop-photo {
+    background-image: url("../../../public/images/store.jpg");
+    width: 100%; 
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    border-bottom: 1px solid $black;
+}
+
+.social-medias {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+.social-medias svg {
+    font-size: 32px;
+}
+
+.our-shop {
+    display: flex;
+    flex-direction: column;
+}

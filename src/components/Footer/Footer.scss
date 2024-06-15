@@ -1,0 +1,62 @@
+@import '../../styles/variablesFonts.scss';
+@import '../../styles/variables.scss';
+
+.footer {
+    height: 429px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border-top: 1px solid $black;
+}
+
+.footer-links {
+    padding: 40px 40px 40px 40px;
+    border-left: 1px solid $black;
+}
+
+.footer-heading {
+    @include heading5;
+    color: $grey;
+}
+
+.footer-links-list {
+    @include link;
+    padding: 0 0 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.footer-links-list a {
+    color: $black;
+}
+
+.footer-contacts {
+    @include link;
+}
+
+.footer-social-links a {
+    color: $black;
+    margin-right: 32px;
+}
+
+.footer-title {
+    @include body;
+}
+
+.footer-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.footer-input {
+    @include caption;
+    padding: 16px 16px 16px 16px;
+}
+
+.footer-button {
+    @include button;
+    height: 56px;
+    background-color: $black;
+    color: $white;
+}

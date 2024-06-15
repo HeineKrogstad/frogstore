@@ -1,0 +1,40 @@
+@import '../../styles/variablesFonts.scss';
+@import '../../styles/variables.scss';
+
+.header {
+    display: grid;
+    height: 84px;
+    width: 100%;
+    grid-template-columns: 2fr 2fr 7fr 1fr 2fr 2fr;
+    border-bottom: 1px solid $black;
+}
+
+.header a:nth-child(2) {
+    border-right: 1px solid $black;
+}
+
+.header-link {
+    display: flex;
+    @include link;
+    width: 100%;
+    height: 100%;
+    border-left: 1px solid $black;
+    align-items: center;
+    justify-content: center;
+    color: $black;
+    cursor: pointer;
+}
+
+.header-cart {
+    background-color: $white;
+    border: none;
+    border-left: 1px solid $black;
+    @include link;
+    color: $black;
+    cursor: pointer;
+}
+
+svg[data-testid="FavoriteBorderIcon"] {
+    width: 30px;
+    height: 30px;
+}

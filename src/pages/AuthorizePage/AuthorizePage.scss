@@ -1,0 +1,66 @@
+@import '../../styles/variablesFonts.scss';
+@import '../../styles/variables.scss';
+
+.auth-header {
+    @include heading1;
+    text-align: center;
+    margin: 0 0 0 0;
+    padding: 60px 0 60px 0;
+    border-bottom: 1px solid $black;
+}
+
+.auth-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    width: calc(50% - 81px);
+    border-left: 1px solid $black;
+    border-right: 1px solid $black;
+    margin-left: 25%; 
+    padding: 40px 40px 40px 40px; 
+}
+
+.auth-subheader {
+    margin: 0 0 0 0;
+    @include heading2;
+}
+
+.login-label {
+    @include heading6;
+}
+
+.login-input {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 80%;
+}
+
+.login-button {
+    background-color: $black;
+    color: $white;
+    @include button;
+    padding: 16px 0 16px 0;
+    width: 100%;
+}
+
+.switch-login-button {
+    @include button;
+    background-color: $white;
+    color: $black;
+    padding: 16px 0 16px 0;
+    width: 40%;
+}
+
+.login-value {
+    padding: 16px 16px 16px 16px;
+    border: 1px solid $light-grey;
+    @include caption;
+}

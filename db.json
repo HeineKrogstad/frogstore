@@ -1,0 +1,366 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Macbook Air M2",
+      "categoryName": "laptops",
+      "category": "Ноутбуки",
+      "variants": [
+        {
+          "memory": "256",
+          "price": 98000
+        },
+        {
+          "memory": "512",
+          "price": 120000
+        }
+      ],
+      "colors": [
+        {
+          "color": "Silver",
+          "imgs": [
+            "/images/macbook-air-m2-silver.jpg",
+            "/images/macbook-air-m2-silver2.jpg",
+            "/images/macbook-air-m2-silver3.jpg"
+          ]
+        },
+        {
+          "color": "Midnight",
+          "imgs": [
+            "/images/macbook-air-m2-midnight.jpg",
+            "/images/macbook-air-m2-midnight2.jpg",
+            "/images/macbook-air-m2-midnight3.jpg"
+          ]
+        },
+        {
+          "color": "Space Grey",
+          "imgs": [
+            "/images/macbook-air-m2-space-grey.jpg",
+            "/images/macbook-air-m2-space-grey2.jpg",
+            "/images/macbook-air-m2-space-grey3.jpg"
+          ]
+        }
+      ],
+      "description": "Материал корпуса: Алюминий \n Диагональ: 13 дюймов\nТип дисплея: Retina\nПроцессор: Apple M2\nРазрешение: 2560x1600\nКоличество ядер: 8\nКоличество Thunderbolt 3 (USB-C): 2\nШxВxТ: 30x21x1 мм\nВес: 1400 г"
+    },
+    {
+      "id": "2",
+      "name": "Macbook Air M1",
+      "categoryName": "laptops",
+      "category": "Ноутбуки",
+      "variants": [
+        {
+          "memory": "256",
+          "price": 78000
+        },
+        {
+          "memory": "512",
+          "price": 120000
+        }
+      ],
+      "colors": [
+        {
+          "color": "Silver",
+          "imgs": [
+            "/images/macbook-air-m1-silver.jpg",
+            "/images/macbook-air-m1-silver2.jpg",
+            "/images/macbook-air-m1-silver3.jpg"
+          ]
+        },
+        {
+          "color": "Gold",
+          "imgs": [
+            "/images/macbook-air-m1-gold.jpg",
+            "/images/macbook-air-m1-gold2.jpg",
+            "/images/macbook-air-m1-gold3.jpg"
+          ]
+        },
+        {
+          "color": "Space Grey",
+          "imgs": [
+            "/images/macbook-air-m1-space-grey.jpg",
+            "/images/macbook-air-m1-space-grey2.jpg",
+            "/images/macbook-air-m1-space-grey3.jpg"
+          ]
+        }
+      ],
+      "description": "Материал корпуса: Алюминий \n Диагональ: 13 дюймов\nТип дисплея: Retina\nПроцессор: Apple M1\nРазрешение: 2560x1600\nКоличество ядер: 8\nКоличество Thunderbolt 3 (USB-C): 2\nШxВxТ: 30x21x1 мм\nВес: 1400 г"
+    },
+    {
+      "id": "3",
+      "name": "Macbook Air M3",
+      "categoryName": "laptops",
+      "category": "Ноутбуки",
+      "variants": [
+        {
+          "memory": "256",
+          "price": 98000
+        },
+        {
+          "memory": "512",
+          "price": 120000
+        }
+      ],
+      "colors": [
+        {
+          "color": "Silver",
+          "imgs": [
+            "/images/macbook-air-m2-silver.jpg",
+            "/images/macbook-air-m2-silver2.jpg",
+            "/images/macbook-air-m2-silver3.jpg"
+          ]
+        },
+        {
+          "color": "Midnight",
+          "imgs": [
+            "/images/macbook-air-m2-midnight.jpg",
+            "/images/macbook-air-m2-midnight2.jpg",
+            "/images/macbook-air-m2-midnight3.jpg"
+          ]
+        },
+        {
+          "color": "Space Grey",
+          "imgs": [
+            "/images/macbook-air-m2-space-grey.jpg",
+            "/images/macbook-air-m2-space-grey2.jpg",
+            "/images/macbook-air-m2-space-grey3.jpg"
+          ]
+        }
+      ],
+      "description": "Материал корпуса: Алюминий \n Диагональ: 13 дюймов\nТип дисплея: Retina\nПроцессор: Apple M2\nРазрешение: 2560x1600\nКоличество ядер: 8\nКоличество Thunderbolt 3 (USB-C): 2\nШxВxТ: 30x21x1 мм\nВес: 1400 г"
+    },
+    {
+      "id": "4",
+      "name": "Macbook Air M4",
+      "categoryName": "laptops",
+      "category": "Ноутбуки",
+      "variants": [
+        {
+          "memory": "256",
+          "price": 78000
+        },
+        {
+          "memory": "512",
+          "price": 120000
+        }
+      ],
+      "colors": [
+        {
+          "color": "Silver",
+          "imgs": [
+            "/images/macbook-air-m1-silver.jpg",
+            "/images/macbook-air-m1-silver2.jpg",
+            "/images/macbook-air-m1-silver3.jpg"
+          ]
+        },
+        {
+          "color": "Gold",
+          "imgs": [
+            "/images/macbook-air-m1-gold.jpg",
+            "/images/macbook-air-m1-gold2.jpg",
+            "/images/macbook-air-m1-gold3.jpg"
+          ]
+        },
+        {
+          "color": "Space Grey",
+          "imgs": [
+            "/images/macbook-air-m1-space-grey.jpg",
+            "/images/macbook-air-m1-space-grey2.jpg",
+            "/images/macbook-air-m1-space-grey3.jpg"
+          ]
+        }
+      ],
+      "description": "Материал корпуса: Алюминий \n Диагональ: 13 дюймов\nТип дисплея: Retina\nПроцессор: Apple M1\nРазрешение: 2560x1600\nКоличество ядер: 8\nКоличество Thunderbolt 3 (USB-C): 2\nШxВxТ: 30x21x1 мм\nВес: 1400 г"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "engname": "laptops",
+      "name": "Ноутбуки",
+      "img": "/images/macbook.jpg"
+    },
+    {
+      "id": "2",
+      "engname": "smartphones",
+      "name": "Смартфоны",
+      "img": "/images/iphone.jpg"
+    },
+    {
+      "id": "3",
+      "engname": "tablets",
+      "name": "Планшеты",
+      "img": "/images/ipad.png"
+    },
+    {
+      "id": "4",
+      "engname": "watches",
+      "name": "Часы",
+      "img": "/images/watch.png"
+    },
+    {
+      "id": "5",
+      "engname": "accessories",
+      "name": "Аксессуары",
+      "img": "/images/airpods.png"
+    }
+  ],
+  "users": [
+    {
+      "email": "test2@mail.ru",
+      "password": "$2a$10$tuqOLsNsd.kOkM2TT4I/buyn8UfrTOIA6wEPPIqAMzCrTymhN/MWq",
+      "name": "Антон",
+      "id": "aKV2ofv"
+    }
+  ],
+  "orders": [
+    {
+      "userId": "aKV2ofv",
+      "items": [
+        {
+          "product": {
+            "id": "4",
+            "name": "Macbook Air M4",
+            "category": "Ноутбуки"
+          },
+          "variant": {
+            "memory": "256",
+            "price": 78000
+          },
+          "color": "Silver"
+        }
+      ],
+      "delivery": {
+        "recipient": "rwerwe",
+        "phone": "rwerew",
+        "address": "Самовывоз",
+        "apartment": ""
+      },
+      "totalAmount": 78000,
+      "id": 1
+    },
+    {
+      "userId": "aKV2ofv",
+      "items": [
+        {
+          "product": {
+            "id": "1",
+            "name": "Macbook Air M2",
+            "category": "Ноутбуки"
+          },
+          "variant": {
+            "memory": "256",
+            "price": 98000
+          },
+          "color": "Silver"
+        }
+      ],
+      "delivery": {
+        "recipient": "",
+        "phone": "",
+        "address": "",
+        "apartment": ""
+      },
+      "totalAmount": 98000,
+      "id": 2
+    },
+    {
+      "userId": "aKV2ofv",
+      "items": [
+        {
+          "product": {
+            "id": "1",
+            "name": "Macbook Air M2",
+            "category": "Ноутбуки"
+          },
+          "variant": {
+            "memory": "256",
+            "price": 98000
+          },
+          "color": "Space Grey"
+        },
+        {
+          "product": {
+            "id": "1",
+            "name": "Macbook Air M2",
+            "category": "Ноутбуки"
+          },
+          "variant": {
+            "memory": "256",
+            "price": 98000
+          },
+          "color": "Midnight"
+        },
+        {
+          "product": {
+            "id": "2",
+            "name": "Macbook Air M1",
+            "category": "Ноутбуки"
+          },
+          "variant": {
+            "memory": "256",
+            "price": 78000
+          },
+          "color": "Gold"
+        },
+        {
+          "product": {
+            "id": "2",
+            "name": "Macbook Air M1",
+            "category": "Ноутбуки"
+          },
+          "variant": {
+            "memory": "256",
+            "price": 78000
+          },
+          "color": "Gold"
+        }
+      ],
+      "delivery": {
+        "recipient": "asd",
+        "phone": "asd",
+        "address": "asd",
+        "apartment": "asd"
+      },
+      "totalAmount": 352000,
+      "id": 3
+    },
+    {
+      "userId": "aKV2ofv",
+      "items": [
+        {
+          "product": {
+            "id": "2",
+            "name": "Macbook Air M1",
+            "category": "Ноутбуки"
+          },
+          "variant": {
+            "memory": "512",
+            "price": 120000
+          },
+          "color": "Gold"
+        },
+        {
+          "product": {
+            "id": "2",
+            "name": "Macbook Air M1",
+            "category": "Ноутбуки"
+          },
+          "variant": {
+            "memory": "512",
+            "price": 120000
+          },
+          "color": "Space Grey"
+        }
+      ],
+      "delivery": {
+        "recipient": "",
+        "phone": "",
+        "address": "",
+        "apartment": ""
+      },
+      "totalAmount": 240000,
+      "id": 4
+    }
+  ]
+}

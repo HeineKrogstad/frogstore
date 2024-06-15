@@ -1,0 +1,131 @@
+@import '../../styles/variablesFonts.scss';
+@import '../../styles/variables.scss';
+
+.checkout-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.checkout-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.checkout-heading {
+    @include heading5;
+    padding-bottom: 40px;
+}
+
+.checkout-pickup {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding-bottom: 24px;
+}
+
+#checkout-checkbox {
+    height: 24px;
+    width: 24px;
+}
+
+.checkout-label {
+    
+    @include caption;
+}
+
+.checkout-step form label input {
+    width: calc(100% - 32px);
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+.checkout-steps {
+    padding: 40px 80px;
+}
+
+.checkout-step {
+    display: none;
+    width: 100%;
+    &.active {
+        display: block;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+
+        .payment-details {
+            display: flex;
+            justify-content: space-between;
+
+            label {
+                width:45%;
+            }
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 16px;
+            background-color: $black;
+            color: $white;
+            border: none;
+            cursor: pointer;
+        }
+    }
+}
+
+.checkout-summary {
+    @include subtitle;
+    border-left: 1px solid $black;
+    padding: 40px 80px;
+    background-color: $extra-light;
+
+    .total {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        @include heading5;
+    }
+}
+
+.checkout-cart-item {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+    border-bottom: 1px solid $black;
+    
+    img {
+        width: 160px;
+        height: 160px;
+        object-fit: cover;
+        border: 1px solid $black;
+    }
+}
+
+.order-success-dialog {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.checkout-login-button {
+    @include button;
+    border: none;
+    color: $white;
+    background-color: $black;
+    width: 100%;
+    padding: 16px;
+}
+
+.checkout-login {
+    @include heading5;
+}

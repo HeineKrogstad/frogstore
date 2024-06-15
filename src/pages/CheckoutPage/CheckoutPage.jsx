@@ -72,7 +72,7 @@ const CheckoutPage = () => {
         };
 
         try {
-            const response = await fetch('/api/orders', {
+            const response = await fetch('https://frog-store-server.vercel.app/orders', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'

@@ -15,7 +15,7 @@ const HomePage = () => {
     const [categories, setCategories] = useState([]);
 
     useEffect(() => {
-        fetch('/api/categories')
+        fetch('https://frog-store-server.vercel.app/categories')
             .then(response => response.json())
             .then(data => setCategories(data))
     }, []);

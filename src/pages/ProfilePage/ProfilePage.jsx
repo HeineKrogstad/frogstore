@@ -21,7 +21,7 @@ const UserProfile = () => {
 
     const fetchProducts = async () => {
         try {
-            const response = await fetch('/api/products');
+            const response = await fetch('https://frog-store-server.vercel.app/products');
             const data = await response.json();
             setProducts(data);
         } catch (error) {
@@ -40,7 +40,7 @@ const UserProfile = () => {
 
     const fetchOrders = useCallback(async () => {
         try {
-            const response = await fetch(`/api/orders?userId=${user.id}`);
+            const response = await fetch(`https://frog-store-server.vercel.app/orders?userId=${user.id}`);
             if (response.ok) {
                 const data = await response.json();
                 setOrders(data);

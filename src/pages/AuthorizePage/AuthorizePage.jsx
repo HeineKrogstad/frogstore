@@ -23,7 +23,7 @@ const LoginRegisterComponent = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const url = isLogin ? '/api/login' : '/api/register';
+    const url = isLogin ? 'https://frog-store-server.vercel.app/login' : 'https://frog-store-server.vercel.app/register';
     const body = isLogin ? { email, password } : { email, password, name };
     const response = await fetch(url, {
       method: 'POST',
@@ -38,7 +38,7 @@ const LoginRegisterComponent = () => {
       const decodedToken = jwtDecode(data.accessToken);
       const userId = decodedToken.sub;
 
-      fetch(`/api/users/${userId}`, {
+      fetch(`https://frog-store-server.vercel.app/users/${userId}`, {
         headers: {
           'Authorization': `Bearer ${data.accessToken}`
         }

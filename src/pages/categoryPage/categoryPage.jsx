@@ -15,7 +15,7 @@ const CategoryPage = () => {
 
     useEffect(() => {
         if (category && category.engname) {
-          fetch(`/api/products?categoryName=${category.engname}`)
+          fetch(`https://frog-store-server.vercel.app/products?categoryName=${category.engname}`)
             .then(response => response.json())
             .then(data => setProducts(data))
             .catch(error => console.error('Error fetching products:', error));
@@ -23,7 +23,7 @@ const CategoryPage = () => {
     }, [category]);
     
     useEffect(() => {
-        fetch(`/api/categories?engname=${engname}`)
+        fetch(`https://frog-store-server.vercel.app/categories?engname=${engname}`)
           .then(response => response.json())
           .then(data => {
             if (data.length > 0) {

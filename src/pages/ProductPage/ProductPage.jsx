@@ -19,7 +19,7 @@ const ProductPage = () => {
     const { addToCart } = useContext(CartContext);
 
     useEffect(() => {
-    fetch(`/api/products?name=${productname}`)
+    fetch(`https://frog-store-server.vercel.app/products?name=${productname}`)
         .then(response => {
         if (!response.ok) {
             throw new Error('Network response was not ok');

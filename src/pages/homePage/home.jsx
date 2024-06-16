@@ -15,7 +15,7 @@ const HomePage = () => {
     const [categories, setCategories] = useState([]);
 
     useEffect(() => {
-        fetch('/api/categories')
+        fetch('http://localhost:3001/categories')
             .then(response => response.json())
             .then(data => setCategories(data))
     }, []);

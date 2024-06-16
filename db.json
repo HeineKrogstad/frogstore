@@ -361,6 +361,31 @@
       },
       "totalAmount": 240000,
       "id": 4
+    },
+    {
+      "userId": "aKV2ofv",
+      "items": [
+        {
+          "product": {
+            "id": "1",
+            "name": "Macbook Air M2",
+            "category": "Ноутбуки"
+          },
+          "variant": {
+            "memory": "256",
+            "price": 98000
+          },
+          "color": "Silver"
+        }
+      ],
+      "delivery": {
+        "recipient": "123123",
+        "phone": "123213",
+        "address": "Самовывоз",
+        "apartment": ""
+      },
+      "totalAmount": 98000,
+      "id": 5
     }
   ]
 }

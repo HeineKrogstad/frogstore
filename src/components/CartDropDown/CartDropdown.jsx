@@ -12,7 +12,7 @@ const CartDropdown = ({ isOpen, onClose }) => {
         const fetchProductImages = async () => {
             const images = {};
             for (const item of cart) {
-                const response = await fetch(`/api/products?name=${item.product.name}`);
+                const response = await fetch(`http://localhost:3001/products?name=${item.product.name}`);
                 const data = await response.json();
                 const product = data[0];
                 const colorObject = product.colors.find(c => c.color.toLowerCase() === item.color.toLowerCase());

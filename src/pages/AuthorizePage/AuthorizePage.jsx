@@ -23,7 +23,7 @@ const LoginRegisterComponent = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const url = isLogin ? '/api/login' : '/api/register';
+    const url = isLogin ? 'http://localhost:3001/login' : 'http://localhost:3001/register';
     const body = isLogin ? { email, password } : { email, password, name };
     const response = await fetch(url, {
       method: 'POST',
@@ -38,7 +38,7 @@ const LoginRegisterComponent = () => {
       const decodedToken = jwtDecode(data.accessToken);
       const userId = decodedToken.sub;
 
-      fetch(`/api/users/${userId}`, {
+      fetch(`http://localhost:3001/users/${userId}`, {
         headers: {
           'Authorization': `Bearer ${data.accessToken}`
         }

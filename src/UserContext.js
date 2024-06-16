@@ -13,7 +13,7 @@ export const UserProvider = ({ children }) => {
       const decodedToken = jwtDecode(token);
       const userId = decodedToken.sub;
 
-      fetch(`/api/users/${userId}`, {
+      fetch(`http://localhost:3001/users/${userId}`, {
         headers: {
           'Authorization': `Bearer ${token}`
         }

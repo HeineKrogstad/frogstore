@@ -19,7 +19,7 @@ const ProductPage = () => {
     const { addToCart } = useContext(CartContext);
 
     useEffect(() => {
-    fetch(`/api/products?name=${productname}`)
+    fetch(`http://localhost:3001/products?name=${productname}`)
         .then(response => {
         if (!response.ok) {
             throw new Error('Network response was not ok');

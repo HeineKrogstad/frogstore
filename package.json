@@ -27,7 +27,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "server": "json-server db.json -m ./node_modules/json-server-auth -p 3001"
+    "server-json": "json-server db.json -m ./node_modules/json-server-auth -p 3001"
     },
   "eslintConfig": {
     "extends": [
